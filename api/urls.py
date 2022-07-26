@@ -10,13 +10,3 @@ urlpatterns = [
     path('', views.api_home), # localhost:8000/api/
     # path('products/', include('products.urls'))
 ]
-
-
-# from django.contrib import admin
-# from django.urls import path, include
-# from api.views import *
-
-# app_name = 'api'
-# urlpattern = [
-#     path('apinew', views.aip_home)
-# ]
